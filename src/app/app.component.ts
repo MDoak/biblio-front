@@ -8,8 +8,8 @@ import { RouterOutlet } from "@angular/router";
 @Component({
     selector: "biblioapp",
     templateUrl: './app.component.html',
-    // standalone: true,
-    // imports: [FormsModule],
+    // standalone: false,
+    // imports: [RouterOutlet],
     styleUrls: ['./app.component.css'],
 })
 export class AppComponent { 

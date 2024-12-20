@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { ProfileModule } from './profile/profile.module'
 import { ProfileService } from "./profile/profile.service";
 import { ProfileComponent } from "./profile/profile.component";
+import { RouterLink, RouterOutlet } from "@angular/router";
+import { MainInfoComponent } from "./mainInfo.component";
 
 
 @NgModule({
-    declarations: [AppComponent],
-    imports: [BrowserModule, FormsModule, HttpClientModule, ProfileModule],
+    declarations: [AppComponent, MainInfoComponent],
+    imports: [BrowserModule, FormsModule, HttpClientModule, ProfileModule, RouterOutlet, RouterLink],
     providers: [ProfileComponent],
     bootstrap: [AppComponent, ProfileComponent],
   })
