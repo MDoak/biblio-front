@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class ProfileService {\n  data = [\"Tom\", \"Bob\", \"Sam\"];\n  getData() {\n    return this.data;\n  }\n  addData(name) {\n    this.data.push(name);\n  }\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
