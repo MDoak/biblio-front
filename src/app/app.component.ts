@@ -1,7 +1,6 @@
 import { Component, EventEmitter, Input, Output } from "@angular/core";
 import { FormsModule }   from "@angular/forms";
-import { Title } from "@angular/platform-browser";
-import { ProfileService } from './profile/profile.service'      
+import { Title } from "@angular/platform-browser";      
 import { Router } from "@angular/router";
 import { RouterOutlet } from "@angular/router";
 import { HttpClientModule } from "@angular/common/http";

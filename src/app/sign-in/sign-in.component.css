@@ -7,6 +7,15 @@ input.ng-touched.ng-valid {border:solid green 2px;}
     background-color: rgb(234, 227, 227);
 }
 
+.sign-up {
+    text-decoration: none;
+    /* text-align: center; */
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar {
     height: 80px;
     padding-top: 30px;
