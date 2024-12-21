@@ -184,25 +184,25 @@ input[type=search] {
     }
 }
   
-  .card {
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
   
-  .container {
+.container {
     padding: 0 16px;
 }
 
-  .container::after, .row::after {
+.container::after, .row::after {
     content: "";
     clear: both;
     display: table;
 }
   
-  .title {
+.title {
     color: grey;
 }
   
-  .button {
+button {
     border: 5px solid  rgb(81, 90, 134);
     outline: 0;
     display: inline-block;
@@ -214,7 +214,7 @@ input[type=search] {
     width: 100%;
 }
   
-  .button:hover {
+button:hover {
     background-color: #555;
 }
 

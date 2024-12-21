@@ -8,10 +8,15 @@ import { ProfileService } from "./profile/profile.service";
 import { ProfileComponent } from "./profile/profile.component";
 import { RouterLink, RouterOutlet } from "@angular/router";
 import { MainInfoComponent } from "./mainInfo.component";
+import { SearchComponent } from "./search.component";
+import { PopupService} from "./popup.service";
+import { ListComponent } from "./list/list.component";
+import { SignComponent } from "./sign-in/sign-in.component";
+import { BookComponent } from "./book/book.component";
 
 
 @NgModule({
-    declarations: [AppComponent, MainInfoComponent],
+    declarations: [AppComponent, MainInfoComponent, SearchComponent, ListComponent, SignComponent, BookComponent],
     imports: [BrowserModule, FormsModule, HttpClientModule, ProfileModule, RouterOutlet, RouterLink],
     providers: [ProfileComponent],
     bootstrap: [AppComponent, ProfileComponent],

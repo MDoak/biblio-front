@@ -4,7 +4,10 @@ import { Title } from "@angular/platform-browser";
 import { ProfileService } from './profile/profile.service'      
 import { Router } from "@angular/router";
 import { RouterOutlet } from "@angular/router";
+import { HttpClientModule } from "@angular/common/http";
+// import { MdDialog } from '@angular/material';
   
+
 @Component({
     selector: "biblioapp",
     templateUrl: './app.component.html',
@@ -14,4 +17,7 @@ import { RouterOutlet } from "@angular/router";
 })
 export class AppComponent { 
     title = "";
+    // constructor(public dialog: MdDialog) {
+
+    // }
 }
